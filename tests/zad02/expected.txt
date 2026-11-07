@@ -1,0 +1,10 @@
+push: 2.0000, size: 1, data: 2.0000
+push: 3.0000, size: 2, data: 2.0000 3.0000
+push: 4.0000, size: 3, data: 2.0000 3.0000 4.0000
+push: 5.0000, size: 4, data: 2.0000 3.0000 4.0000 5.0000
+stack full
+pop: 5.0000, size: 3, data: 2.0000 3.0000 4.0000
+pop: 4.0000, size: 2, data: 2.0000 3.0000
+pop: 3.0000, size: 1, data: 2.0000
+pop: 2.0000, size: 0, data:
+stack empty

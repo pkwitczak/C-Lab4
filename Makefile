@@ -6,7 +6,7 @@ LDLIBS := -lm
 
 TASK ?= zad01
 
-TASKS := zad01 zad02 zad03 zad04 zad05 zad06 zad07
+TASKS := zad01 zad02 zad03 zad04 zad05 zad06
 APPS := $(addprefix build/,$(TASKS))
 
 ifeq ($(filter $(TASK),$(TASKS)),)
@@ -17,11 +17,9 @@ endif
 
 build: build/$(TASK)
 
-build/%: src/%.c | build
-	$(CC) $(CFLAGS) $< -o $@ $(LDLIBS)
-
-build:
+build/%: src/%.c
 	mkdir -p build
+	$(CC) $(CFLAGS) $< -o $@ $(LDLIBS)
 
 run: build/$(TASK)
 	./build/$(TASK)

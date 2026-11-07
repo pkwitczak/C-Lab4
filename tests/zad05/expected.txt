@@ -1,0 +1,13 @@
+push: 1.0000, size: 1, capacity: 2, data: 1.0000
+push: 2.0000, size: 2, capacity: 2, data: 1.0000 2.0000
+push: 3.0000, size: 3, capacity: 4, data: 1.0000 2.0000 3.0000
+push: 4.0000, size: 4, capacity: 4, data: 1.0000 2.0000 3.0000 4.0000
+push: 5.0000, size: 5, capacity: 8, data: 1.0000 2.0000 3.0000 4.0000 5.0000
+push: 6.0000, size: 6, capacity: 8, data: 1.0000 2.0000 3.0000 4.0000 5.0000 6.0000
+pop: 6.0000, size: 5, capacity: 8, data: 1.0000 2.0000 3.0000 4.0000 5.0000
+pop: 5.0000, size: 4, capacity: 8, data: 1.0000 2.0000 3.0000 4.0000
+pop: 4.0000, size: 3, capacity: 8, data: 1.0000 2.0000 3.0000
+pop: 3.0000, size: 2, capacity: 8, data: 1.0000 2.0000
+pop: 2.0000, size: 1, capacity: 8, data: 1.0000
+pop: 1.0000, size: 0, capacity: 8, data:
+stack empty

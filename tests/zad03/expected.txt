@@ -1,0 +1,4 @@
+result: 19.7500
+result: 11.2500
+result: 65.8750
+result: 3.6471

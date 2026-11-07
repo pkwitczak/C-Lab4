@@ -9,7 +9,7 @@ TASK="${1:-zad01}"
 export LC_ALL=C
 
 case "$TASK" in
-    zad01|zad02|zad03|zad04|zad05|zad06|zad07)
+    zad01|zad02|zad03|zad04|zad05|zad06)
         ;;
     *)
         printf 'Nieznane zadanie: %s\n' "$TASK" >&2

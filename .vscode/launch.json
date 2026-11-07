@@ -2,28 +2,17 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Run C program",
+      "name": "Run / Debug aktualnego zadania",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/app",
+      "program": "${workspaceFolder}/build/${fileBasenameNoExtension}",
       "args": [],
       "cwd": "${workspaceFolder}",
       "stopAtEntry": false,
       "MIMode": "gdb",
-      "preLaunchTask": "build",
-      "console": "integratedTerminal"
-    },
-    {
-      "name": "Debug C program",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "${workspaceFolder}/build/app",
-      "args": [],
-      "cwd": "${workspaceFolder}",
-      "stopAtEntry": false,
-      "MIMode": "gdb",
-      "preLaunchTask": "build",
-      "console": "integratedTerminal"
+      "miDebuggerPath": "/usr/bin/gdb",
+      "preLaunchTask": "build-active",
+      "externalConsole": false
     }
   ]
-}
+}s

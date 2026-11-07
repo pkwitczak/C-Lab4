@@ -90,6 +90,26 @@
       "problemMatcher": [
         "$gcc"
       ]
+    },
+    {
+      "label": "build-active",
+      "type": "shell",
+      "command": "make",
+      "args": [
+        "build",
+        "TASK=${fileBasenameNoExtension}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
     }
   ],
   "inputs": [
@@ -100,7 +120,7 @@
       "default": "zad01",
       "options": [
         {
-          "label": "zad01 — Tablica",
+          "label": "zad01 — Wypełnianie tablicy",
           "value": "zad01"
         },
         {
@@ -108,24 +128,20 @@
           "value": "zad02"
         },
         {
-          "label": "zad03 — Dwie liczby RPN",
+          "label": "zad03 — Jedno działanie w odwrotnej notacji polskiej",
           "value": "zad03"
         },
         {
-          "label": "zad04 — Wieloetapowe RPN",
+          "label": "zad04 — Wieloetapowe wyrażenia w odwrotnej notacji polskiej",
           "value": "zad04"
         },
         {
-          "label": "zad05 — Ograniczenie pojemnosci",
+          "label": "zad05 — Stos z dynamiczną pamięcią",
           "value": "zad05"
         },
         {
-          "label": "zad06 — Tablica dynamiczna",
+          "label": "zad06 — Kalkulator z dynamicznym stosem",
           "value": "zad06"
-        },
-        {
-          "label": "zad07 — Dynamiczny stos",
-          "value": "zad07"
         }
       ]
     }
